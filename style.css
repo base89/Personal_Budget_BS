@@ -1,4 +1,14 @@
+body {
+    background-color: #f8f8f8;
+}
+
 .bud_app_logo {
-    font-family: 'Boogaloo', cursive;
-    font-size: 4em;
+    font-family: 'Boogaloo', cursive !important;
+    font-size: 4em !important;
+}
+
+.bg-btn-app {
+    background-color: #38b000 !important;
+    border: 1px solid #38b000 !important;
+    color: white !important;
 }
