@@ -50,17 +50,17 @@
                 <h2 class="text-wrap h2 h1-app fw-bold my-5 mx-4">Dodaj wydatek</h2>
                 <form class="row g-3">
                     <div class="row justify-content-start my-2 mx-auto">
-                        <label class="col-sm-3 col-form-label text-start" for="inputAmount">Kwota:</label>
+                        <label class="col-sm-3 col-form-label text-start" for="inputExpenceAmount">Kwota:</label>
                         <div class="col-sm-9">
-                            <input class="form-control" type="number" name="inputAmount" id="inputAmount" min="0"
-                                step="0.01" placeholder="np. 99,99" required>
+                            <input class="form-control" type="number" name="inputExpenceAmount" id="inputExpenceAmount"
+                                min="0" step="0.01" placeholder="np. 99,99" required>
                         </div>
                     </div>
                     <div class="row justify-content-start my-2 mx-auto">
-                        <label class="col-sm-3 col-form-label text-start" for="inputDate">Data:</label>
+                        <label class="col-sm-3 col-form-label text-start" for="inputExpenceDate">Data:</label>
                         <div class="col-sm-9">
-                            <input class="form-control" type="date" name="inputDate" id="inputDate" min="2000-01-01"
-                                required>
+                            <input class="form-control" type="date" name="inputExpenceDate" id="inputExpenceDate"
+                                min="2000-01-01" required>
                         </div>
                     </div>
                     <div class="row justify-content-start my-2 mx-auto">
@@ -76,9 +76,9 @@
                         </div>
                     </div>
                     <div class="row justify-content-start my-2 mx-auto">
-                        <label class="col-sm-3 col-form-label text-start" for="inputIncomeCategory">Kategoria:</label>
+                        <label class="col-sm-3 col-form-label text-start" for="inputExpenceCategory">Kategoria:</label>
                         <div class="col-sm-9">
-                            <select class="form-control" name="inputIncomeCategory" id="inputIncomeCategory" required>
+                            <select class="form-control" name="inputExpenceCategory" id="inputExpenceCategory" required>
                                 <option value="" class="text-center" disabled selected>-- Wybierz kategorię: --</option>
                                 <option value="salary">Wynagrodzenie</option>
                                 <option value="food">Żywność</option>
@@ -102,9 +102,9 @@
                         </div>
                     </div>
                     <div class="row justify-content-start my-2 mx-auto">
-                        <label class="col-sm-2 col-form-label text-start" for="inputIncomeComment">Komentarz:</label>
+                        <label class="col-sm-2 col-form-label text-start" for="inputExpenceComment">Komentarz:</label>
                         <div>
-                            <textarea class="form-control" name="inputIncomeComment" id="inputIncomeComment" cols="30"
+                            <textarea class="form-control" name="inputExpenceComment" id="inputExpenceComment" cols="30"
                                 rows="3" placeholder="Opcjonalnie..."></textarea>
                         </div>
 
