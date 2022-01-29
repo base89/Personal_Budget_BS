@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f8f8;
+    background-color: #f8f8f8 !important;
 }
 
 .bud_app_logo {
@@ -11,4 +11,48 @@ body {
     background-color: #38b000 !important;
     border: 1px solid #38b000 !important;
     color: white !important;
+}
+
+.bg-btn-app:hover {
+    background-color: rgba(56, 176, 0, 0.74) !important;
+}
+
+.bud_app_logo-bar {
+    font-family: 'Boogaloo', cursive !important;
+    font-size: 1.3em !important;
+}
+
+.f-footer-t {
+    font-size: 13px !important;
+}
+
+.f-footer-b {
+    font-size: 11px !important;
+}
+
+.active:hover {
+    cursor: default !important;
+}
+
+@media (max-width: 576px)
+{
+    body {
+        background-color: white !important;
+    }
+
+    .bud_app_logo {
+        font-size: 3em !important;
+    }
+
+    .border {
+        border: none !important;
+    }
+
+    .h1-app {
+        font-size: calc(1.2rem + 1.5vw) !important;
+    }
+
+    .h4-app {
+        font-size: calc(1.1rem + .3vw) !important;
+    }
 }
