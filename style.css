@@ -14,7 +14,8 @@ body {
 }
 
 .bg-btn-app:hover {
-    background-color: rgba(56, 176, 0, 0.74) !important;
+    background-color: #2e9100 !important;
+    border: 1px solid #2e9100 !important;
 }
 
 .bud_app_logo-bar {
@@ -52,7 +53,19 @@ body {
         font-size: calc(1.2rem + 1.5vw) !important;
     }
 
+    .h1-app {
+        font-size: calc(1.2rem + 1.1vw) !important;
+    }
+
     .h4-app {
         font-size: calc(1.1rem + .3vw) !important;
+    }
+
+    .f-footer-t {
+        font-size: calc(0.65rem + .3vw) !important;
+    }
+    
+    .f-footer-b {
+        font-size: calc(0.5rem + .3vw) !important;
     }
 }
