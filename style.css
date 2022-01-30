@@ -1,10 +1,16 @@
 body {
     background-color: #f8f8f8 !important;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .bud_app_logo {
     font-family: 'Boogaloo', cursive !important;
     font-size: 4em !important;
+}
+
+.bg-green-app {
+    background-color: #38b000 !important;
+    color: white !important;
 }
 
 .bg-btn-app {
@@ -37,6 +43,19 @@ body {
 
 .active:hover {
     cursor: default !important;
+}
+
+.rounded-table-app {
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.bg-table-app {
+    background-color: #f1f1f1;
+}
+
+.f-lett-space-min-app {
+    letter-spacing: .025em;
 }
 
 @media (max-width: 576px)
