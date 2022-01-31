@@ -3,6 +3,10 @@ body {
     /* font-family: 'Roboto', sans-serif; */
 }
 
+.bg-l-gray-app {
+    background-color: #f8f8f8 !important;
+}
+
 .bud_app_logo {
     font-family: 'Boogaloo', cursive !important;
     font-size: 4em !important;
@@ -27,6 +31,10 @@ body {
 .bud_app_logo-bar {
     font-family: 'Boogaloo', cursive !important;
     font-size: 1.3em !important;
+}
+
+.text-gray-app {
+    color: #929292;
 }
 
 .modal-content {
